@@ -68,6 +68,10 @@ public class UserPrinciple implements UserDetails {
         return username;
     }
 
+    public String getAvatar() {
+        return avatar;
+    }
+
     @Override
     public boolean isAccountNonExpired() {
         return true;
