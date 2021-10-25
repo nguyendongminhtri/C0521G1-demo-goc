@@ -16,6 +16,7 @@ public class Category {
     private String avatarCategory;
     @ManyToOne
     User user;
+
     public Category(Long id, String nameCategory, String avatarCategory, User user) {
         this.id = id;
         this.nameCategory = nameCategory;
